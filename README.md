@@ -1,3 +1,5 @@
+Changed phantomjs dependency to https://github.com/Lochlan/phantomjs2
+
 # svgexport
 
 svgexport is a Node.js module and command-line tool for exporting SVG files to PNG and JPEG, it uses PhantomJS for rendering SVG files.
@@ -18,12 +20,12 @@ svgexport <datafile>
 
 <format>         png|jpeg|jpg
                  If not specified, it will be inferred from output file extension or defaults to "png".
-                 
+
 <quality>        1%-100%
 
 <input viewbox>  <left>:<top>:<width>:<height>|<width>:<height>
                  If input viewbox is not specified it will be inferred from input file.
-                 
+
 <output size>    <scale>x|<width>:<height>|<width>:|:<height>
                  If output size is specified as width:height, <viewbox mode> is used.
 
